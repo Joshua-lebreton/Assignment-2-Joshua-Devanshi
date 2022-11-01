@@ -1,0 +1,53 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 8px 10px black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 16, 128);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    display: inline-block;
+    justify-content: space-around;
+    background-image: image('images/flowers-pink-large.jpg');
+    margin: 0;
+
+}
+
+h1{
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    font-size: 8em;
+    text-align: center;
+    justify-content: space-around;
+}
+figure img {
+    display: inline-block;
+    height: auto;
+    width: 90%;
+    justify-content: center;
+}
+
+figcaption {
+    display: inline-block;
+    height: auto;
+    width: 80%;
+    font-size: 4em;
+    text-align: center;
+    justify-content: space-around;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    justify-content: space-around;
+}
+
+section{
+    margin: 40px;
+    color: black;
+    background-image: repeating-linear-gradient(140deg,rgba(12,3,100),rgba(28,115,255, 0.7), rgba(28,173,255));
+    border: 20px solid black;
+    border-radius: 50px;
+}
